@@ -1,0 +1,20 @@
+.todo-adder {
+  display: block;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 400px) {
+  .todo-adder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+.todo-adder .todo-adder__button {
+  height: 4vh;
+}
+/*# sourceMappingURL=todoadder-styles.css.map */

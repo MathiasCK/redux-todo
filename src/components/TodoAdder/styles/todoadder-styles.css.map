@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,MAAM;CASf;;AARC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAHrC,AAAA,WAAW,CAAC;IAIR,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,QAAQ;GAMxB;;;AAXD,AAQE,WARS,CAQT,mBAAmB,CAAC;EAClB,MAAM,EAAE,GAAG;CACZ",
+    "sources": [
+        "todoadder-styles.scss"
+    ],
+    "names": [],
+    "file": "todoadder-styles.css"
+}
