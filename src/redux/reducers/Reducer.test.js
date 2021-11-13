@@ -2,6 +2,9 @@ import { ADD_TODO, DELETE_TODO, TOGGLE_TODO } from '../types';
 import todoReducer from './todo-reducer';
 
 describe('todoReducer', () => {
+  it('should return the initial state', () => {
+    expect(todoReducer(undefined, {})).toMatchSnapshot();
+  });
   test('adds one item succesfully', () => {
     const action = {
       type: ADD_TODO,

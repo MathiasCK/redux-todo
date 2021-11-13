@@ -16,7 +16,7 @@ const FilterButtons = ({ setTodosToDisplay, todos }) => {
           setTodosToDisplay(finishedTodos);
         }}
       >
-        Show finished
+        Show completed
       </button>
       <button
         onClick={() => {
@@ -24,7 +24,7 @@ const FilterButtons = ({ setTodosToDisplay, todos }) => {
           setTodosToDisplay(finishedTodos);
         }}
       >
-        Show unfinished
+        Show uncompleted
       </button>
     </section>
   );
