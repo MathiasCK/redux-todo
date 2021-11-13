@@ -1,4 +1,10 @@
-import { ADD_TODO, TOGGLE_TODO, DELETE_TODO } from '../types';
+import {
+  ADD_TODO,
+  TOGGLE_TODO,
+  DELETE_TODO,
+  SHOW_COMPLETED,
+  SHOW_UNCOMPLETED,
+} from '../types';
 
 export const addTodoAction = obj => ({
   type: ADD_TODO,
@@ -13,4 +19,12 @@ export const toggleTodoAction = obj => ({
 export const deleteTodoAction = id => ({
   type: DELETE_TODO,
   payload: id,
+});
+
+export const showCompleteTodos = () => ({
+  type: SHOW_COMPLETED,
+});
+
+export const showUncompleteTodos = () => ({
+  type: SHOW_UNCOMPLETED,
 });
