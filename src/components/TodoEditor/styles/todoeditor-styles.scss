@@ -1,0 +1,16 @@
+$green: #a0e7a0;
+
+.todo__content__button--mark {
+  border: 1px solid $green;
+  color: $green;
+  &:hover {
+    background: $green;
+    color: white;
+  }
+}
+
+.todo__update {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
