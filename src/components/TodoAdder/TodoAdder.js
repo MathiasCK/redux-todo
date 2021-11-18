@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { addTodoAction } from '../../redux/actions/actions';
 
 import FormInput from './Form-Input';
-import './styles/todoadder-styles.css';
+import './styles/todoadder-styles.scss';
 
 const TodoAdder = () => {
   const [inputValue, setInputValue] = useState('');

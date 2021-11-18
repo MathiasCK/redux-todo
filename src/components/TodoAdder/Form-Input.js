@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/todoadder-styles.css';
+import './styles/todoadder-styles.scss';
 
 const FormInput = ({ handleChange, label, ...otherProps }) => (
   <section className='group'>

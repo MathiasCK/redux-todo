@@ -2,7 +2,7 @@ import React from 'react';
 import Todo from '../Todo/Todo';
 import TodoAdder from '../TodoAdder/TodoAdder';
 
-import './styles/todolist-styles.css';
+import './styles/todolist-styles.scss';
 
 const TodoContainer = () => {
   return (

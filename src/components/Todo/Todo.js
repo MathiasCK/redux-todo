@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './styles/todo-styles.css';
+import './styles/todo-styles.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   deleteTodoAction,
