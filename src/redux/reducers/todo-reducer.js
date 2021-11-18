@@ -1,4 +1,4 @@
-import { ADD_TODO, DELETE_TODO, TOGGLE_TODO } from '../types';
+import { ADD_TODO, DELETE_TODO, EDIT_TODO, TOGGLE_TODO } from '../types';
 
 const INITIAL_STATE = {
   todos: [],
@@ -22,6 +22,14 @@ export const todoReducer = (state = INITIAL_STATE, action) => {
         ...state,
         todos: updatedTodos,
       };
+    case EDIT_TODO:
+      const todoToUpdate = state.todos.find(
+        todo => todo.id === action.payload.id,
+      );
+
+      todoToUpdate.text = action.newText;
+
+      return state;
     case DELETE_TODO:
       const newTodos = [...state.todos].filter(
         todo => todo.id !== action.payload,

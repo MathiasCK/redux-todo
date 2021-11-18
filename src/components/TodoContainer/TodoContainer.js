@@ -4,7 +4,7 @@ import TodoAdder from '../TodoAdder/TodoAdder';
 
 import './styles/todolist-styles.css';
 
-const TodoList = () => {
+const TodoContainer = () => {
   return (
     <>
       <header className='todolist'>
@@ -18,4 +18,4 @@ const TodoList = () => {
   );
 };
 
-export default TodoList;
+export default TodoContainer;
