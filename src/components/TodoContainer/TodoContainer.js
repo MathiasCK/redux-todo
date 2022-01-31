@@ -33,7 +33,13 @@ const TodoContainer = () => {
   };
 
   if (!todos.length) {
-    return <h4 className='todo__empty'>No todos, start adding some above</h4>;
+    return (
+      <header className='todolist'>
+        <h1 className='todolist__header'>What's happening today?</h1>
+        <TodoAdder />
+        <h4 className='todo__empty'>No todos, start adding some above</h4>
+      </header>
+    );
   }
 
   return (
